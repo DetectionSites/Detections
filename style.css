@@ -1,0 +1,80 @@
+.header-container {
+    display: flex;       /* Use flexbox for easy alignment */
+    align-items: center; /* Vertically center the items within the container */
+    gap: 15px;           /* Add some space between the logo and the title */
+    padding-left: 10%;       /* Optional: Add some spacing around the container */
+    background: url(WaGa.png);
+    background: -webkit-linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background: -moz-linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background: -o-linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background: -ms-linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 150% 150%;
+    animation: gradient-animation 15s ease infinite;
+}
+.registered-mark {
+    font--size: 0.6em;
+    vertical-align: super;
+    line-height: 1;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background: -moz-linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background: -o-linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background: -ms-linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 15s ease infinite;
+}
+
+h1 {
+  color: #207979;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+h2 {
+  color: red;
+  font-size: 2.0rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h3 {
+  color: red;
+  font-size: 2.0rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+p {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}

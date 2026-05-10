@@ -1,0 +1,16 @@
+
+.top-container {
+  background-image: url("images/design.png");
+  background-color: #9c9246;
+  position: relative;
+  padding-top: 100px;
+}
+
+
+on GitHub
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
